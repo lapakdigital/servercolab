@@ -100,4 +100,4 @@ app.get('/email', async (req, res) => {
 //     }
 // })
 
-app.listen(3000)
+app.listen(process.env.PORT)
